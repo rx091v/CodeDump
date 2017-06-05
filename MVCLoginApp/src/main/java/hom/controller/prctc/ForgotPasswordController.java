@@ -7,11 +7,11 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseBody;
 
 @Controller
-public class GreetingController {
+public class ForgotPasswordController {
 
 	@ResponseBody
-	@RequestMapping("/greeting")
-    public String greeting() {
-        return "Oh yeeaah !";
+	@RequestMapping("/forgotpassword")
+    public String forgotPassword() {
+        return "Sorry, Ab kuch na ho paai !";
     }
 	}
